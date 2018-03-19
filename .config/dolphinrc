@@ -1,0 +1,32 @@
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+EditableUrl=true
+ShowFullPath=true
+Version=200
+ViewPropsTimestamp=2018,1,31,16,2,31
+
+[IconsMode]
+FontWeight=50
+
+[MainWindow]
+Height 768=734
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC0AAACuPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAUA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAACuAAAAD8A////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAABQD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAUA////AAAB5AAAArgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=670
+
+[PreviewSettings]
+Plugins=directorythumbnail,imagethumbnail,jpegthumbnail
+
+[SettingsDialog]
+Height 768=524
+Width 1366=512
+
+[ViewPropertiesDialog]
+Height 768=514
+Width 1366=352

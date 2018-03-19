@@ -1,0 +1,70 @@
+// > BOXY NOVA
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// The most hackable theme for Sublime Text 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[
+  //
+  // >> Controls
+  // ===========================================================================
+
+  {
+    "class": "label_control",
+    "font.face" : "Gohu GohuFont",
+    "font.size" : "11px"
+  },
+
+  {
+    "class": "label_control",
+    "parents": [{"class": "panel_control"}],
+    "font.face" : "Gohu GohuFont",
+    "font.size" : "11px"
+  },
+
+  //
+  // >> Sidebar
+  // ===========================================================================
+
+  {
+    "class": "sidebar_heading",
+    "font.face" : "Gohu GohuFont",
+    "font.size" : "11px"
+  },
+
+  {
+    "class": "sidebar_label",
+    "font.face" : "Gohu GohuFont",
+    "font.size" : "11px"
+  },
+
+  //
+  // >> Status Bar
+  // ===========================================================================
+
+  {
+    "class": "label_control",
+    "parents": [{"class": "status_bar"}],
+    "font.face" : "Gohu GohuFont",
+    "font.size" : "11px"
+  },
+
+  //
+  // >> Tabs
+  // ===========================================================================
+
+  {
+    "class": "tab_label",
+    "font.face" : "Gohu GohuFont",
+    "font.size" : "11px"
+  },
+
+  //
+  // >> Tooltips
+  // ===========================================================================
+
+  {
+    "class": "tool_tip_label_control",
+    "font.face" : "Gohu GohuFont",
+    "font.size" : "11px"
+  }
+]

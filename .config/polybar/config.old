@@ -1,0 +1,212 @@
+# Configuration By Sergey Puryushin
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+[color]
+main-color = #fafafa
+main-foreground = #474747
+unfocus-foreground = #c1c1c1
+red = #f1383d
+
+
+[bar/top]
+locale = ru_RU.UTF-8
+override-redirect = false
+bottom = false
+fixed-center = true
+
+width = 100%
+height = 26
+
+font-0 = SF Pro Display:style=Medium:pixelsize=11;2
+font-1 = Font Awesome:size=11;3
+
+background = ${color.main-color}
+foreground = ${color.main-foreground}
+
+#line-color = ${color.main-color}
+#underline-size = 0
+#overline-size = 0
+#border-bottom-size = 0
+#border-bottom-color = ${color.main-color}
+
+module-margin = 4
+padding-right = 5
+
+#padding-left = 5
+#padding-right = 2
+#module-margin-left = 1
+#module-margin-right = 2
+#spacing = 2
+
+tray-position = right
+tray-padding = 0
+tray-maxsize = 16
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+# Modules Location ###########################################
+
+modules-left = i3
+modules-center = xwindow
+modules-right = xkeyboard battery volume date powermenu
+
+# Scripts ####################################################
+# Directory = ~/.config/polybar/scripts/
+
+# Modules ####################################################
+
+[module/xwindow]
+type = internal/xwindow
+format = <label>
+label = %title%
+label-maxlen = 70
+
+[module/i3]
+type = internal/i3
+strip-wsnumbers = true
+wrapping-scroll = false
+
+label-focused = %name%
+label-focused-foreground = ${color.main-foreground}
+label-focused-background = ${color.main-color}
+label-focused-padding = 5
+
+label-unfocused = %name%
+label-unfocused-padding = 5
+label-unfocused-foreground = ${color.unfocus-foreground}
+
+label-visible = %name%
+label-visible-padding = 5
+
+label-urgent = %name%
+label-urgent-background = ${color.main-color}
+label-urgent-foreground = ${color.red}
+label-urgent-padding = 5
+
+[module/battery]
+type = internal/battery
+full-at = 98
+time-format = %H:%M
+battery = BAT1
+adapter = AC
+
+format-charging = <animation-charging> <label-charging>
+label-charging = %percentage%%
+
+format-discharging = <ramp-capacity> <label-discharging>
+label-discharging = %percentage%%
+
+format-full = <label-full>
+format-full-prefix = "  "
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-framerate = 750
+
+[module/volume]
+type = internal/volume
+
+format-volume = <ramp-volume> <label-volume>
+label-volume = %percentage%%
+
+label-muted = без звука
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-4 = 
+ramp-volume-5 = 
+ramp-volume-6 = 
+ramp-volume-7 = 
+ramp-volume-8 = 
+ramp-volume-9 = 
+
+ramp-headphones-0 =  
+ramp-headphones-1 =  
+
+[module/date]
+type = internal/date
+interval = 30
+label =  %time%
+time = %H:%M
+time-alt = %d %b %Y, %A
+
+##### Text / Icon / Launchers ##################
+
+[module/arch]
+type = custom/text
+
+content = 
+content-background = ${color.main-color}
+content-foreground = ${color.main-foreground}
+;content-padding = 4
+
+click-left = rofi -show run
+
+################################################
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = ${color.main-foreground}
+label-close = отмена
+label-close-foreground = ${color.main-foreground}
+label-separator = |
+label-separator-foreground = ${color.main-foreground}
+
+menu-0-0 = перезагрузить
+menu-0-0-exec = menu-open-1
+menu-0-1 = выключить
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = перезагрузить?
+menu-1-0-exec = systemctl reboot
+
+menu-2-0 = выключить?
+menu-2-0-exec = systemctl poweroff
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${color.main-foreground}
+format-prefix-underline = ${color.main-foreground}
+
+label-layout = %layout%
+label-layout-underline = ${color.main-foreground}
+label-layout-padding = 2
+
+#label-indicator-padding = 2
+#label-indicator-margin = 1
+label-indicator-background = ${color.main-foreground}
+label-indicator-underline = ${color.main-foreground}
+
+#[module/home]
+#type = internal/fs
+#interval = 25
+
+#mount-0 = /
+#label-mounted =  %percentage_used%%
+#label-mounted =  %percentage_used%%
+#label-unmounted = %mountpoint% not mounted
+#label-unmounted-foreground = ${color.pink}
