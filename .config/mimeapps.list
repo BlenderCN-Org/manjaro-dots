@@ -37,3 +37,5 @@ x-scheme-handler/mailto=userapp-Thunderbird.desktop;
 message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=epdfview.desktop;
 application/x-bittorrent=transmission-gtk.desktop;
+application/zip=xarchiver.desktop;
+application/x-codeblocks=codeblocks.desktop;

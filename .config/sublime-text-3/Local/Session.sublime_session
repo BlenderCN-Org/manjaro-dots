@@ -1,15 +1,18 @@
 {
 	"folder_history":
 	[
+		"/home/breno/documents/UFJF/lp2",
+		"/home/breno/documents/UFJF/lp2/aula03",
+		"/home/breno/documents/UFJF/lp2/aula04",
 		"/home/breno/.config/polybar",
 		"/home/breno/.config/sublime-text-3"
 	],
 	"last_version": 3143,
-	"last_window_id": 4,
+	"last_window_id": 5,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 620.0,
+		"new_window_height": 366.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -25,9 +28,13 @@
 			"command_palette":
 			{
 				"height": 177.0,
-				"last_filter": "install",
+				"last_filter": "menu",
 				"selected_items":
 				[
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -37,7 +44,7 @@
 						"Install Package Control"
 					]
 				],
-				"width": 377.0
+				"width": 515.0
 			},
 			"console":
 			{
@@ -57,6 +64,9 @@
 			},
 			"file_history":
 			[
+				"/home/breno/documents/UFJF/lp2/aula03/ex06/main.cpp",
+				"/home/breno/documents/UFJF/lp2/aula03/aula03-recursividade.pdf",
+				"/home/breno/test",
 				"/home/breno/.config/termite/config",
 				"/home/breno/.config/polybar/config.old",
 				"/home/breno/.config/polybar/config",
@@ -86,8 +96,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"\"font.face\": \"Sans-Serif\"",
-					"\"font.face\" : \"Sans-Serif\""
+					"new"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -95,8 +104,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					"\"font.face\" : \"Gohu GohuFont\",\n    \"font.size\" : \"11px\"",
-					"\"font.face\" : \"Gohu GohuFont\",\n    \"font.size\" : \"11px"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -110,7 +117,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 39.0
 			},
 			"menu_visible": true,
 			"output.find_results":
@@ -157,7 +164,7 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 186.0,
 			"status_bar_visible": true,
 			"template_settings":
@@ -183,9 +190,13 @@
 			"command_palette":
 			{
 				"height": 177.0,
-				"last_filter": "install",
+				"last_filter": "menu",
 				"selected_items":
 				[
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -195,7 +206,7 @@
 						"Install Package Control"
 					]
 				],
-				"width": 377.0
+				"width": 515.0
 			},
 			"console":
 			{
@@ -215,6 +226,9 @@
 			},
 			"file_history":
 			[
+				"/home/breno/documents/UFJF/lp2/aula03/ex06/main.cpp",
+				"/home/breno/documents/UFJF/lp2/aula03/aula03-recursividade.pdf",
+				"/home/breno/test",
 				"/home/breno/.config/termite/config",
 				"/home/breno/.config/polybar/config.old",
 				"/home/breno/.config/polybar/config",
@@ -244,8 +258,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"\"font.face\": \"Sans-Serif\"",
-					"\"font.face\" : \"Sans-Serif\""
+					"new"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -253,8 +266,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					"\"font.face\" : \"Gohu GohuFont\",\n    \"font.size\" : \"11px\"",
-					"\"font.face\" : \"Gohu GohuFont\",\n    \"font.size\" : \"11px"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -268,7 +279,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 39.0
 			},
 			"layout":
 			{
@@ -302,7 +313,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,24,1360,644,1366,768",
+			"position": "0,0,0,0,0,685,396,1360,762,1366,768",
 			"replace":
 			{
 				"height": 46.0
@@ -341,13 +352,13 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 186.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 4
+			"window_id": 5
 		}
 	],
 	"workspaces":
