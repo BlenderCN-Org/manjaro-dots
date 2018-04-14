@@ -1,3 +1,0 @@
-###### Progress log entry 2018-03-18 19:07:50 ######
-Reinstalling all deployed packages...
-###### Progress log entry 2018-03-18 19:07:52 ######
