@@ -286,7 +286,7 @@ exec --no-startup-id clipit
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec telegram-desktop -startintray
-exec udiskie --tray
+exec --no-startup-id udiskie -t
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id ~/bin/disable-keyboard.sh
 
