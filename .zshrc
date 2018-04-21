@@ -166,4 +166,4 @@ alias easyavr="cd ~/bin/EasyAVR && ./easykeymap.sh"
 alias dotsave="git commit -a -m \"daily update\" && git push origin master"
 alias refont="sudo fc-cache -f -v"
 alias fuck="sudo !!"
-# eval $(ssh-agent -s)
+alias ssha="eval $(ssh-agent -s)"
