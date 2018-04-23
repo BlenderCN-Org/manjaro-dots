@@ -1,4 +1,4 @@
-# If you come from bash you might have to change your $PATH.
+# If you come from bash you might have to change your $PATH
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
@@ -167,3 +167,5 @@ alias dotsave="git commit -a -m \"daily update\" && git push origin master"
 alias refont="sudo fc-cache -f -v"
 alias fuck="sudo !!"
 alias ssha="eval $(ssh-agent -s)"
+alias buildkeeb="sudo make satan:hailbreno"
+alias flashkeeb="sudo make satan:hailbreno:dfu"
