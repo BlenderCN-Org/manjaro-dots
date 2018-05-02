@@ -41,7 +41,7 @@ font-2 = Wunconsiji:pixelsize=10;1
 
 modules-left = i3 xwindow
 modules-center = 
-modules-right = filesystem xbacklight alsa memory cpu battery temperature date
+modules-right = filesystem xbacklight memory cpu battery temperature date
 
 tray-position = right
 tray-padding = 0
@@ -147,7 +147,8 @@ label-song-ellipsis = true
 type = internal/xbacklight
 
 format = <label>
-label = BL %percentage%%
+label =  %percentage%%
+format-underline = #f900f9
 
 bar-width = 10
 bar-indicator = |

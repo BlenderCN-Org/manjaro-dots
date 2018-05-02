@@ -1,6 +1,6 @@
 [Alsa]
-card=HDA Intel PCH
-channel=PCM
+card=default
+channel=Master
 
 [Notification]
 show_notification=true
@@ -8,8 +8,8 @@ notification_type=1
 
 [StatusIcon]
 stepsize=5
-onclick=urxvt -e 'alsamixer'
-theme=White Gnome
+onclick=pavucontrol
+theme=Default
 use_panel_specific_icons=true
 lmb_slider=true
 mmb_mute=true
