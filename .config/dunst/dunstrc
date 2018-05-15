@@ -1,5 +1,5 @@
 [global]
-    font = Gohu GohuFont, Twitter Color Emoji 8
+    font = fontconfig-mono, Twitter Color Emoji 9
     
     # Allow a small subset of html markup:
     #   <b>bold</b>

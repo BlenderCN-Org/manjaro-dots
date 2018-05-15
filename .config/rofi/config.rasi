@@ -1,6 +1,6 @@
 configuration {
 	columns: 1;
-	font: "Gohu GohuFont 8";
+	font: "fontconfig-mono 9";
 	lines: 5;
 	modi: "drun,window,combi,run,ssh";
 	width: 32;

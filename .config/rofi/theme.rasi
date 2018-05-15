@@ -63,7 +63,7 @@ listview {
 	cycle:   true;
 }
 
-element { padding: 10px; }
+element { padding: 5px 10px; }
 
 entry {
 	expand:         false;
