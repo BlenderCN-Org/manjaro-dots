@@ -37,11 +37,12 @@ module-margin-right = 1
 
 font-0 = fontconfig-mono:weight=medium:pixelsize=9;2
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = Wunconsiji:pixelsize=10;1
+font-2 = TerminessTTF Nerd Font:pixelsize=10;2
+;font-3 = Wunconsiji:pixelsize=10;1
 
 modules-left = i3 xwindow
-modules-center = 
-modules-right = filesystem xbacklight memory cpu battery temperature date
+modules-center =
+modules-right = filesystem xbacklight memory cpu battery date
 
 tray-position = right
 tray-padding = 0
@@ -78,9 +79,8 @@ type = internal/fs
 interval = 25
 
 mount-0 = /
-;mount-0 = 
 
-label-mounted = %{F#0a81f5}%{F-} %free% free
+label-mounted = %{F#0a81f5} %{F-} %free% free
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 format-mounted-underline = #0a81f5
@@ -147,7 +147,7 @@ label-song-ellipsis = true
 type = internal/xbacklight
 
 format = <label>
-label =  %percentage%%
+label = "  %percentage%%"
 format-underline = #f900f9
 
 bar-width = 10
@@ -169,7 +169,7 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f90000
 label = %percentage:2%%
@@ -177,7 +177,7 @@ label = %percentage:2%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
 label = %percentage_used%%
@@ -224,13 +224,13 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date-alt = 
-date = " %d/%m/%Y "
+date-alt =
+date = " %d/%m/%Y ::"
 
 time =%H:%M
 time-alt = %H:%M
 
-format-prefix = 
+format-prefix =  
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
@@ -276,18 +276,18 @@ format-charging-underline = #ffb52a
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
+format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = "  "
+ramp-capacity-1 = "  "
+ramp-capacity-2 = "  "
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = "  "
+animation-charging-1 = "  "
+animation-charging-2 = "  "
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
