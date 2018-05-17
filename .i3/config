@@ -280,7 +280,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
-#exec --no-startup-id start_conky_maia
+# exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
 # exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
@@ -290,6 +290,8 @@ exec --no-startup-id udiskie -t
 exec --no-startup-id transmission-gtk -m
 exec --no-startup-id ~/bin/disable-keyboard.sh
 exec_always --no-startup-id xbanish
+exec --no-startup-id setxkbmap -option compose:ralt
+exec --no-startup-id xbindkeys
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Color palette used for the terminal ( ~/.Xresources file )
