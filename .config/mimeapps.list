@@ -42,3 +42,4 @@ application/zip=xarchiver.desktop;
 application/x-codeblocks=codeblocks.desktop;
 application/vnd.rar=xarchiver.desktop;
 application/x-subrip=mousepad.desktop;
+application/x-cbr=xarchiver.desktop;
