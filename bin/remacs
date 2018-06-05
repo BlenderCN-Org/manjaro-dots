@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+# Terminate current emacs process
+killall -q emacs
+
+# Wait until the processes have been shut down
+while pgrep -x emacs >/dev/null; do sleep 1;
+done
+
+# Launch emacs as daemon
+emacs --daemon

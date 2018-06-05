@@ -266,7 +266,8 @@ values."
    ;;                       text-mode
    ;;   :size-limit-kb 1000)
    ;; (default nil)
-   dotspacemacs-line-numbers nil
+   dotspacemacs-line-numbers t
+
    ;; Code folding method. Possible values are `evil' and `origami'.
    ;; (default 'evil)
    dotspacemacs-folding-method 'evil
@@ -310,6 +311,9 @@ before packages are loaded. If you are unsure, you should try in setting them in
   )
 
 (defun dotspacemacs/user-config ()
+  (setq-default line-spacing 0.1)
+  (add-text-properties (point-min) (point-max)
+                       '(line-spacing 0.2 line-height 1.2))
   "Configuration function for user code.
 This function is called at the very end of Spacemacs initialization after
 layers configuration.

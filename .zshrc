@@ -1,5 +1,4 @@
-# If you come from bash you might have to change your $PATH
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$PATH
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
@@ -141,7 +140,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias ss="import -window root"
-alias comp="g++ -o"
+alias compile="g++ *.cpp -o app && ./app"
 alias mount="sudo mount"
 alias umount="sudo umount"
 alias reboot="sudo reboot"

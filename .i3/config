@@ -272,6 +272,11 @@ mode "resize" {
 bindsym $mod+9 exec --no-startup-id blurlock
 
 # Autostart applications
+exec_always --no-startup-id ff-theme-util
+exec_always --no-startup-id fix_xcursor
+exec_always --no-startup-id xbanish
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 exec --no-startup-id nm-applet
@@ -279,20 +284,16 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 # exec --no-startup-id blueman-applet
-# exec_always --no-startup-id sbxkb
 # exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
 # exec --no-startup-id xautolock -time 10 -locker blurlock
-exec_always --no-startup-id ff-theme-util
-exec_always --no-startup-id fix_xcursor
-exec telegram-desktop -startintray
+exec --no-startup-id telegram-desktop -startintray
 exec --no-startup-id udiskie -t
 exec --no-startup-id transmission-gtk -m
 exec --no-startup-id ~/bin/disable-keyboard.sh
-exec_always --no-startup-id xbanish
 exec --no-startup-id setxkbmap -option compose:ralt
 exec --no-startup-id xbindkeys
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec --no-startup-id google-chrome-stable --no-startup-window
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
