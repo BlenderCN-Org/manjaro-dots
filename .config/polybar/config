@@ -32,10 +32,11 @@ border-color = #00000000
 padding-left = 0
 padding-right = 1
 
-module-margin-left = 2
-module-margin-right = 2
+module-margin-left = 1
+module-margin-right = 0
 
-font-0 = fontconfig-mono:weight=medium:pixelsize=9;2
+;font-0 = fontconfig-mono:weight=medium:pixelsize=9;2
+font-0 = source code pro:weight=medium:pixelsize=9;2
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = TerminessTTF Nerd Font:pixelsize=10;2
 ;font-3 = Wunconsiji:pixelsize=10;1
