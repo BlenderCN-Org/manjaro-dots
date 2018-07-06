@@ -44,3 +44,4 @@ application/vnd.rar=xarchiver.desktop;
 application/x-subrip=sublime_text_3.desktop;mousepad.desktop;
 application/x-cbr=xarchiver.desktop;
 text/x-ssa=sublime_text_3.desktop;mousepad.desktop;
+video/mp4=vlc.desktop;
