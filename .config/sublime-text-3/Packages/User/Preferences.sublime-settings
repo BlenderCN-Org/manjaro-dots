@@ -59,12 +59,12 @@
 	"default_line_ending": "unix",
 	"dictionary": "Packages/Dictionaries/Portuguese (Brazilian).dic",
 	"fade_fold_buttons": false,
-	"font_face": "fontconfig-mono",
+	"font_face": "source code pro",
+	"font_size": 9,
 	"font_options":
 	[
 		"gdi"
 	],
-	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
