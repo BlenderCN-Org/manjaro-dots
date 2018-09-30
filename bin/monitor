@@ -29,3 +29,4 @@ else
         notify-send "Monitors extended"
 fi
 echo "${monitor_mode}" > /tmp/monitor_mode.dat
+nitrogen --restore
