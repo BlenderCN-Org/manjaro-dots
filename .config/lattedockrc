@@ -1,0 +1,30 @@
+[DownloadDialog Settings]
+Height 768=550
+Width 1366=800
+
+[KFileDialog Settings]
+Recent Files[$e]=Default.layout.latte,file:$HOME/.config/latte/Default.layout.latte
+Recent URLs[$e]=file:$HOME/.config/latte/
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_transmission-gtk.desktop,1 services_khotkeys.desktop,1 services_keys.desktop
+pluginWhiteList=services,desktopsessions,PowerDevil,shell,bookmarks,baloosearch,locations
+
+[ScreenConnectors]
+10=eDP1
+11=HDMI1
+
+[UniversalSettings]
+canDisableBorders=false
+currentLayout=Default
+downloadWindowSize=800,550
+lastNonAssignedLayout=Default
+launchers=
+layoutsColumnWidths=91,80,66,0
+layoutsWindowSize=700,553
+memoryUsage=0
+mouseSensitivity=2
+screenTrackerInterval=2500
+showInfoWindow=true
+unifiedGlobalShortcuts=true
+version=2
