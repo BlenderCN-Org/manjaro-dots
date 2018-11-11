@@ -39,5 +39,9 @@
 "xte 'key F5'"
    b:11
 
+#Fn3 minimize window
+"xte 'keydown Super_L' 'key Next' 'keyup Super_L'"
+   b:12
+
 #
 # End of xbindkeys configuration

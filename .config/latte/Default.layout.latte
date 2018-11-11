@@ -22,13 +22,19 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.latte.plasmoid
 
+[Containments][1][Applets][2][Configuration]
+PreloadWeight=10
+
 [Containments][1][Applets][2][Configuration][General]
 isInLatteDock=true
-launchers59=applications:google-chrome.desktop,applications:org.kde.dolphin.desktop
+launchers59=applications:google-chrome.desktop,applications:org.kde.dolphin.desktop,applications:telegramdesktop.desktop,applications:vlc.desktop,file:///usr/bin/transmission-qt?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACjElEQVRoge2ZMWsaYRjHf3cajKQQUIKjSeZOxqkUOnRoI3Qo5AMYhO46RT9AzOSNbQfRD-DQSelc6SQOobOJW0NRCBjsae7eDiVCja852_dVSe833vvc_f__u_d5juPAx-f_xpAtfH394q1h8NGAnWUamkbAD4H77lnjy6dZ60HZicbIfj--GezguvrcecE0dza2nnwAZgYwZeeNbwaxlZsHcN3fXiRIA6yF-TvmeJFuoWmefm5iGNKWUYoQgm-vnnuq9RzAdV2EEH9tahEWuVHyLTTFsswvquU5wLriB5hHvV6nXq_rlPDexIvSarWoVCoYhkEsFuPg4ECLjpYn0Ol0sCwLIQSu61Iqlbi4uNAhpT5Ar9fj7OwM27Ynx2zbplgs0uv1VMupDTAcDjk9PaXf799b6_f7FItFhsOhSkl1ARzHwbIsut2utOby8hLLsnAcR5WsugDVapV2u_1gXbvdplqtqpJVN4UymQyZTAaAo6OjmTW1Wk2V3AT_RbZq_ACrxg-wapSN0XK5TKPRmFtzN14PDw8nI_dfUfYE0uk0iUTiwbpEIsHx8bEqWXUBAoEA2WyWeDwurdnd3SWXy2Ga6nau0h4Ih8MUCgUikci9tUgkQj6fZ3NzU6Wk-iaORqOcnJwQCoUmx0KhEPl8nmg0qlpOzxTa398nm81imiamaZLL5djb29Mhpe-TMplMkk6nAbR9ToLGAACpVErn5YFH8CLzA6wazwFGo5FOH38wHo8913pu4vM3L_m5pH8GQcNgOxjwVuv1olsBk63A-u249XO0INIAjhDfl2lkHvO8SAM0rweFWyGu9Fjyzq0QV83rQUG2Pu9fzjYQBzaUu1qMMdAFrlfsw-dx8gtX2cJp0zJCZAAAAABJRU5ErkJggg%3D%3D
 
 [Containments][1][Applets][23]
 immutability=1
 plugin=org.kde.plasma.kickerdash
+
+[Containments][1][Applets][23][Configuration]
+PreloadWeight=86
 
 [Containments][1][Applets][23][Configuration][ConfigDialog]
 DialogHeight=540
@@ -43,12 +49,16 @@ useCustomButtonImage=true
 DialogHeight=697
 DialogWidth=600
 
+[Containments][1][Configuration]
+PreloadWeight=10
+
 [Containments][1][General]
 advanced=true
 appletOrder=23;2
 iconMargin=50
 iconSize=24
 maxLength=50
+modifierClickAction=NewInstance
 panelPosition=Left
 panelSize=100
 proportionIconSize=3
@@ -79,20 +89,23 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][4][Applets][5][Configuration][General]
-isInLatteDock=true
+[Containments][4][Applets][18][Configuration]
+PreloadWeight=20
 
 [Containments][4][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][7][Configuration]
-PreloadWeight=55
+PreloadWeight=94
 SystrayContainmentId=8
 
 [Containments][4][ConfigDialog]
 DialogHeight=698
 DialogWidth=601
+
+[Containments][4][Configuration]
+PreloadWeight=10
 
 [Containments][4][General]
 advanced=true
@@ -105,6 +118,7 @@ proportionIconSize=3
 zoomLevel=0
 
 [Containments][8]
+PreloadWeight=10
 activityId=
 formfactor=2
 immutability=1
@@ -113,53 +127,91 @@ location=4
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
-[Containments][8][Applets][10]
-immutability=1
-plugin=org.kde.plasma.clipboard
-
 [Containments][8][Applets][11]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][8][Applets][12]
-immutability=1
-plugin=org.kde.kdeconnect
+[Containments][8][Applets][11][Configuration]
+PreloadWeight=15
 
 [Containments][8][Applets][13]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
+[Containments][8][Applets][13][Configuration]
+PreloadWeight=10
+
 [Containments][8][Applets][14]
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][8][Applets][15]
-immutability=1
-plugin=org.kde.plasma.printmanager
-
-[Containments][8][Applets][16]
-immutability=1
-plugin=org.kde.plasma.battery
+[Containments][8][Applets][14][Configuration]
+PreloadWeight=10
 
 [Containments][8][Applets][17]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][8][Applets][17][Configuration]
+PreloadWeight=10
+
 [Containments][8][Applets][21]
 immutability=1
 plugin=org.kde.discovernotifier
 
-[Containments][8][Applets][22]
+[Containments][8][Applets][21][Configuration]
+PreloadWeight=10
+
+[Containments][8][Applets][24]
 immutability=1
-plugin=org.kde.plasma.vault
+plugin=org.kde.plasma.weather
+
+[Containments][8][Applets][24][Configuration]
+PreloadWeight=20
+pressureUnit=5008
+showHumidityInTooltip=false
+showPressureInTooltip=false
+showTemperatureInCompactMode=false
+showTemperatureInTooltip=true
+showWindInTooltip=false
+source=bbcukmet|weather|Juiz de Fora, Brazil|3459505
+speedUnit=9000
+temperatureUnit=6001
+updateInterval=30
+visibilityUnit=2007
+weatherServiceProviders=bbcukmet
+
+[Containments][8][Applets][24][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][8][Applets][25]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][8][Applets][26]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][8][Applets][26][Configuration]
+PreloadWeight=10
 
 [Containments][8][Applets][9]
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][8][Applets][9][Configuration]
+PreloadWeight=45
+
+[Containments][8][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][8][General]
-extraItems=org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.discovernotifier,org.kde.plasma.vault
+extraItems=org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.discovernotifier,org.kde.plasma.weather
+hiddenItems=org.kde.plasma.clipboard,org.kde.plasma.vault,google-chrome
 knownItems=org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.discovernotifier,org.kde.plasma.vault
+shownItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkmanagement,TelegramDesktop
 
 [LayoutSettings]
 activities=
