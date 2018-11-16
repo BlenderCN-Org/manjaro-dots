@@ -1,2 +1,8 @@
 [Show]
+akregator_konqplugin=true
+akregatorplugin=true
+installFont=true
 kactivitymanagerd_fileitem_linking_plugin=true
+openTerminalHere=true
+runInKonsole=true
+sharefileitemaction=true
