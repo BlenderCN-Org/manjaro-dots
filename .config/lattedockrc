@@ -11,7 +11,7 @@ Height 768=456
 Width 1366=452
 
 [PlasmaRunnerManager]
-LaunchCounts=3 services_systemsettings.desktop,2 services_logisim.desktop,3 services_telegramdesktop.desktop,1 services_org.kde.latte-dock.desktop,1 services_khotkeys.desktop,2 services_vlc.desktop,2 services_transmission-qt.desktop,2 services_autostart.desktop,1 services_mouse.desktop,1 services_transmission-qt --minimized,1 services_transmission-gtk.desktop,2 services_org.kde.kate.desktop,1 services_keys.desktop
+LaunchCounts=1 services_khotkeys.desktop,1 services_keys.desktop,3 services_telegramdesktop.desktop,1 services_transmission-qt --minimized,2 services_org.kde.latte-dock.desktop,1 services_7zFM.desktop,1 services_mouse.desktop,2 services_autostart.desktop,3 services_systemsettings.desktop,2 services_logisim.desktop,1 services_transmission-gtk.desktop,2 services_org.kde.kate.desktop,1 services_gimp.desktop,2 services_vlc.desktop,2 services_transmission-qt.desktop
 pluginWhiteList=services,desktopsessions,PowerDevil,shell,bookmarks,baloosearch,locations
 
 [ScreenConnectors]

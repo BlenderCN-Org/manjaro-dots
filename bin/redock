@@ -1,0 +1,2 @@
+#!/bin/sh
+latte-dock --replace </dev/null &>/dev/null &
