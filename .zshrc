@@ -112,6 +112,7 @@ POWERLEVEL9K_BATTERY_ICON='\UF1E6'
 plugins=(git fedora virtualenv python pyenv colorize)
 
 source $ZSH/oh-my-zsh.sh
+zstyle ":completion:*:commands" rehash true
 
 # User configuration
 
